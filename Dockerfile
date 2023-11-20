@@ -1,4 +1,4 @@
-FROM flyio/postgres-flex:15.1
+FROM flyio/postgres-flex:15.2
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
