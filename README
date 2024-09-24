@@ -1,5 +1,5 @@
-docker build -t toranb/pgvector . --platform "linux/amd64"
+docker build -t toranb/pgvectorr . --platform "linux/amd64"
 
-docker push toranb/pgvector
+docker push toranb/pgvectorr
 
-flyctl postgres create --image-ref toranb/pgvector
+flyctl postgres create --image-ref toranb/pgvectorr
